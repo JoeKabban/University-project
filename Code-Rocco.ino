@@ -16,19 +16,19 @@ void loop() {
     // Control the relays/motors based on the received command
     if (command == 'F') {
       // Action 1: Open both motors
-      digitalWrite(relay1ControlPin, LOW); // Turn relay 1 on
+      digitalWrite(relay1ControlPin, LOW); // Turn relay 1 off
       digitalWrite(relay2ControlPin, HIGH); // Turn relay 2 on
     } else if (command == 'S') {
       // Action 2: Close both motors
-      digitalWrite(relay1ControlPin, HIGH);  // Turn relay 1 off
+      digitalWrite(relay1ControlPin, HIGH);  // Turn relay 1 on
       digitalWrite(relay2ControlPin, LOW);  // Turn relay 2 off
     } else if (command == 'R') {
       // Action 3: Open motor 1 and close motor 2
-      digitalWrite(relay1ControlPin, LOW); // Turn relay 1 on
+      digitalWrite(relay1ControlPin, LOW); // Turn relay 1 off
       digitalWrite(relay2ControlPin, LOW);  // Turn relay 2 off
     } else if (command == 'L') {
       // Action 4: Close motor 1 and open motor 2
-      digitalWrite(relay1ControlPin, HIGH);  // Turn relay 1 off
+      digitalWrite(relay1ControlPin, HIGH);  // Turn relay 1 on
       digitalWrite(relay2ControlPin, HIGH); // Turn relay 2 on
     }
   }
