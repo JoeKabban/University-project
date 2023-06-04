@@ -1,4 +1,5 @@
-# University-project
+# University-project-Rocco
+
 This project is carried out as part of the Wireless Communication module in License 1 at the University
 Nice Sophia Antipolis
 Rocco is a Bluetooth-controlled boat designed for aquatic exploration. With the ability to navigate straight, turn right, turn left, and stop, Rocco offers a versatile and exciting experience. Originally developed to analyze water quality, Rocco takes its name from one of our team members' beloved dog, adding a touch of fun and adventure to the project.
